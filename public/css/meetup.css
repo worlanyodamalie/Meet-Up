@@ -1,0 +1,99 @@
+body{
+    background: #17153B !important;
+}
+
+
+.meetup-nav-brand{
+    font-family: Herculanum;
+    line-height: normal;
+    font-size: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+.meet-up-nav-bar > li {
+    display: inline-block !important;
+  }
+
+.meet-up-nav-bar > li > a {
+    margin: 20px;
+    cursor: pointer;
+}  
+
+.meet-up-nav-bar > li > a:hover,
+.meet-up-nav-bar > li > a:focus {
+  background-color: transparent !important;
+
+}
+
+
+/* .meet-up-nav-bar > li + li {
+    margin-left: 20px;
+  }   */
+
+.meet-nav-bar-text{
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+
+    color: #FFFFFF !important;
+}
+
+.meetup-tag-line {
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 44px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.meet-img{
+    display: block;
+    margin: auto;
+}
+
+.location-input{
+    width: 260px;
+    float: left;
+}
+
+.meetup-search {
+    width: 288px;
+    float: left;
+}
+
+.meetup-btn {
+    float:left;
+}
+
+.meetup-search > input {
+    width: 100%;
+    display: block;
+    height: 100%;
+    padding: 10px 32px;
+}
+
+.location-input > input {
+    width: 100%;
+    display: block;
+    height: 100%;
+    padding: 10px 32px;
+}
+
+
+.meetup-btn {
+    background: #6C63FF;
+    border-radius: 0px 5px 5px 0px;
+    border: 0;
+    cursor: pointer;
+    transition: all .2s ease-out,color .2s ease-out;
+}
